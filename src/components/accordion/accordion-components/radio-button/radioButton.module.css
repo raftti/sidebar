@@ -1,0 +1,43 @@
+/* RadioGroup.module.css */
+.radioButtonGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  .radioLabel {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .radioButton {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .radioButton svg {
+    color: white;
+  }
+  
+  .active {
+    background-color: var(--Coral);
+    border-color: rgb(223, 103, 103);
+  }
+  
+  .title {
+    color: var(--Grey_3, #414141);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.9%;
+    letter-spacing: 0.42px;
+  }
+  

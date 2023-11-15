@@ -1,0 +1,38 @@
+.checkboxWrapper {
+  gap: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.customCheckbox {
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+
+.customCheckbox.checked {
+  background-color: var(--Coral);
+  border-color: var(--Coral);
+}
+
+.checkIcon {
+  color: white;
+  font-size: 16px;
+}
+
+.title {
+  color: var(--Grey_3, #414141);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 126.9%;
+  letter-spacing: 0.42px;
+}

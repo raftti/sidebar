@@ -1,0 +1,15 @@
+.selectedValue {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+      position: relative;
+  }
+
+  .selectedValue:focus {
+    border-color: var(--Coral);
+  }
